@@ -17,6 +17,8 @@ class Server(BaseHTTPRequestHandler):
 		split_path = os.path.splitext(self.path)
 		request_extension = split_path[1]
 
+
+		# will ensure requests for both  .html  files directly  and simple url requests are handled
 		if request_extension == "" or request_extension == ".html":
 			if self.path in routes:
 				handler = TemplateHandler()
