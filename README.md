@@ -1,5 +1,7 @@
 A SIMPLE PYTHON WEBSERVER
 
+I was driven by the Pesapal Challenge Interview questions to come up with this and I hope its worth it.
+
 Its a simple Python HTTP web-server application which can listen on a configurable TCP port(in this case localhost:8000) and serve both static HTML and dynamically generated HTML.
 
 I have not been able to implement https secure protocol at the moment.
