@@ -1,5 +1,5 @@
 routes = {
     "/" : {"template": "index.html"},
     
-    "/images" : {"template": "images.html"}
+    "/images" : {"template": "images.html"},
 } 

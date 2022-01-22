@@ -18,3 +18,6 @@ The displayed page can be found in the program's template folder. At the moment 
 The public folder contains all static files, css, js, images and the likes.
 
 localhost/8000 displays the index.html page
+If you want to navigate to another page, make sure it is in the templates folder and its link is in the routes/main.py
+
+for instance in our templates we have images.html and it is routed in the routes/main.py as images. If you want to access it you simply type localhost:8000/images
