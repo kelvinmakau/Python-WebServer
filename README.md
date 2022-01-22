@@ -16,3 +16,5 @@ Then open your favorite browser and type localhost/8000. A webpage is displayed.
 The displayed page can be found in the program's template folder. At the moment this page does not do anything but just display simple stuff, but it can be edited to  display whatever the user wants. 
 
 The public folder contains all static files, css, js, images and the likes.
+
+localhost/8000 displays the index.html page
